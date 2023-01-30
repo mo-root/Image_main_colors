@@ -1,7 +1,6 @@
 # Image_main_colors
 
-
-![AudiToVideo – index](https://user-images.githubusercontent.com/59801139/213307981-56ee26fe-8f49-4d0b-9d2d-6244830d178a.gif)
+![Project Name](https://user-images.githubusercontent.com/59801139/215496983-f116635f-beec-4de6-9208-9749edcbb4c1.gif)
 
 
 ## Installation
