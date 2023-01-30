@@ -22,6 +22,7 @@ pip install -r requirements.txt
 
 1. Run the server
 ```
+cd Image_main_colors
 python app.py
 
 ```
