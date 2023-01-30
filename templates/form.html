@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Main Colors</title>
+  </head>
+  <body>
+    <h1>Upload Image</h1>
+<form action="{{ url_for('index') }}" method="post" enctype="multipart/form-data">
+      <input type="file" name="image">
+      <input type="text" name="num_colors" placeholder="Number of colors">
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

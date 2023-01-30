@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Main Colors</title>
+    <style>
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+        font-family: sans-serif;
+        font-size: 40px;
+      }
+      .color-box {
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        animation: zoomIn 0.5s ease-in-out;
+      }
+      .color-name {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 10px;
+        color: white;
+      }
+      @keyframes zoomIn {
+        from {
+          transform: scale(0);
+        }
+        to {
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Main Colors</h1>
+    <center>
+    {% for color in main_colors %}
+      <div class="color-box" style="background-color: {{ color[0] }};">
+        <p class="color-name">{{ color[0] }}</p>
+      </div>
+    {% endfor %}
+      </center>
+  </body>
+</html>
+
+
