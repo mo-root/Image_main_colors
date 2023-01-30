@@ -17,14 +17,11 @@
 pip install -r requirements.txt
 
 ```
-3. run the python app
-
 
 
 ## Usage/Examples
 
 1. Run the server
-
 ```
 python app.py
 
